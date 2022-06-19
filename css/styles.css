@@ -203,14 +203,17 @@
     border-width: 2px;
     border-radius: 4px;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.8;
-        letter-spacing: 0.03em;
-        color: var(--header-color);
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+.portfolio-buttons.active {
+    background-color: var(--accent-color);
+    color: var(--white);
 }
 .portfolio-buttons:hover,
-.portfolio-buttons:focus,
-.portfolio-buttons:active
+.portfolio-buttons:focus
    {
     background-color: var(--accent-color);
     color: var(--white);
