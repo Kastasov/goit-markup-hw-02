@@ -59,6 +59,7 @@
       
 }
 .logo {
+    text-decoration: none;
     font-family: 'Raleway', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -165,10 +166,10 @@
     color: var(--light-color-for-dark-theme-logo);
     text-decoration: none;
 }
-.footer-logo:hover,
-.footer-logo:focus,
-.footer-logo:active
- { color: var(--accent-color); }
+/* .footer-logo:hover, */
+/* .footer-logo:focus, */
+/* .footer-logo:active */
+ /* { color: var(--accent-color); } */
 
 .footer-contact {
     font-style: normal;
