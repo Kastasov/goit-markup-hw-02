@@ -20,12 +20,12 @@
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .body
 {
     font-family: 'Roboto', 'Arial', sans-serif;
@@ -39,11 +39,6 @@
     padding: 0px;
     margin: 0px;
 }
-
-.current {
-    color: var(--accent-color);
-}
-
 
 .logo-accent {
     color: var(--accent-color);
@@ -80,14 +75,15 @@
 
 .header-contact:hover,
 .header-contact:focus,
-.header-contact:active {
+.header-contact:active
+ {
     color: var(--accent-color);
 }
 
 .header-link:hover,
 .header-link:focus,
-.header-link:active
- {
+.header-link:active,
+.current {
     color: var(--accent-color);
 }
 
@@ -193,18 +189,17 @@
     color: var(--white);
 }
 
-.footer-adress:hover,
-.footer-adress:focus,
-.footer-adress:active {
-    color: var(--accent-color);}
+
 
 
 /* protfolio page */ 
+
 .portfolio-buttons {
     font-family: 'Roboto', 'Arial',sans-serif;
     background-color: var(--body-accent-background);
     cursor: pointer;
     border: none;
+    border-width: 2px;
     border-radius: 4px;
     font-weight: 500;
         font-size: 16px;
@@ -213,9 +208,12 @@
         color: var(--header-color);
 }
 .portfolio-buttons:hover,
-.portfolio-buttons:focus {
+.portfolio-buttons:focus,
+.portfolio-buttons:active
+   {
     background-color: var(--accent-color);
     color: var(--white);
+    
 }
 .project-description {
     font-size: 16px;
